@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecf2ff;
+  padding: 24px 12px;
+  color: #876445;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #8d7b68;
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.title {
+  padding: 8px;
+}
+
+.title h3 {
+  margin: 0 0 15px;
+  color: #a4907c;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.title p,
+.title a {
+  margin: 7px 0;
+  font-size: 12px;
+}
+
+.title i {
+  color: #319da0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 8px;
+  border-top: 1px solid #dfd3c3;
+}
+
+.section-name {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+
+.sub-section {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-section a {
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.sub-section a i {
+  margin-left: 5px;
+}
+
+.sub-section p {
+  margin: 8px 0;
+}
+
+.language-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.language-list p {
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 6px 8px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.skills-list p {
+  border-radius: 5px;
+  padding: 6px 8px;
+  background: #9ba17b;
+  color: #fffbf5;
+  margin: 2px 0;
+}
