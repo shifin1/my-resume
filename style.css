@@ -5,6 +5,24 @@ body {
   color: #876445;
 }
 
+button {
+  color: #a4907c;
+  background-color: #ecf2ff;
+  padding: 4px 7px;
+  margin-left: 10px;
+  border: 0.5px solid #a4907c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #a4907c;
+  color: #ecf2ff;
+  border: 0.5px solid #ecf2ff;
+}
+
 h1 {
   text-transform: capitalize;
   font-weight: 600;
@@ -45,6 +63,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+span {
+  font-size: 8px;
+  margin-left: 5px;
+  color: cadetblue;
 }
 
 .section {
@@ -88,9 +112,14 @@ a:hover {
 
 .language-list {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
   width: 70%;
+}
+
+.projects > .sub-section > a {
+  border-right: 1px solid grey;
+  padding-right: 10px;
 }
 
 .language-list p {
@@ -104,7 +133,7 @@ a:hover {
   gap: 10px;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0 8px;
+  padding: 0 8px 0 0;
 }
 
 .skills-list p {
@@ -113,4 +142,54 @@ a:hover {
   background: #9ba17b;
   color: #fffbf5;
   margin: 2px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 24px 10%;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .title h3 {
+    font-size: 14px;
+  }
+
+  .section-name {
+    font-size: 16px;
+  }
+
+  .skills-list p {
+    font-size: 10px;
+  }
+
+  .education > .section-name {
+    margin-bottom: 0;
+  }
+
+  .education > .subsections {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .sub-section a {
+    font-size: 14px;
+  }
+
+  .sub-heading {
+    font-size: small;
+    margin: 0;
+  }
+
+  .projects,
+  .languages {
+    margin-top: -25px;
+  }
+
+  .language-list p {
+    padding: 4px 6px;
+  }
 }
