@@ -122,6 +122,16 @@ span {
   padding-right: 10px;
 }
 
+.projects > .sub-section > p {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+.projects > .sub-section > p span {
+  color: #876445;
+}
+
 .language-list p {
   border-radius: 5px;
   border: 1px solid grey;
